@@ -31,7 +31,7 @@ jobs:
           # 必要なパッケージインストール
           pip install numpy
           pip install tweepy
-          #pip install glob3
+       
       - name: Run script
         run: |
           # main.pyの実行
